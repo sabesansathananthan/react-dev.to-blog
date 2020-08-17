@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Dev.to Blog
 
-## Available Scripts
+[![licence](https://img.shields.io/github/license/sabesansathananthan/react-dev.to-blog)](https://github.com/sabesansathananthan/react-dev.to-blog/blob/master/.github/LICENSE)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/sabesansathananthan/react-dev.to-blog)](https://github.com/sabesansathananthan/react-dev.to-blog)
+[![GitHub repo size](https://img.shields.io/github/repo-size/sabesansathananthan/react-dev.to-blog?color=ff69b4)](https://github.com/sabesansathananthan/react-dev.to-blog)
+[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTheSabesan)](https://twitter.com/intent/tweet?text=Wow,%20I%20used%20react-dev.to-blog.%20That%20is%20excellent.%20Thank%20you%20@TheSabesan)
 
-In the project directory, you can run:
+## UI
 
-### `yarn start`
+Here is the UI
+![Image](./docs/Screenshot.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How to setup
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Read this [documentation](./docs/SETUP.md)📝
 
-### `yarn test`
+## How to use
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`blogURL = "https://api.rss2json.com/v1/api.json?rss_url=https://dev.to/feed/thepracticaldev"`
 
-### `yarn build`
+Use your dev.to user name👤 instead of `thepracticaldev`. in [Slider.js](./src/components/Slider.js)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to contribute
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Read this [CONTRIBUTION.md](./docs/CONTRIBUTION.md)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Finally
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Don't forget to give a star⭐️ for this repo ☺️

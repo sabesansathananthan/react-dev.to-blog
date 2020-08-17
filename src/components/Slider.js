@@ -8,11 +8,11 @@ class Slider extends React.Component {
     super(props);
     this.state = { itemRows: [], avatar: "", profileLink: "" };
   }
-  mediumURL =
-    "https://api.rss2json.com/v1/api.json?rss_url=https://dev.to/feed/thepracticaldev";
+  blogURL =
+    "https://api.rss2json.com/v1/api.json?rss_url=https://dev.to/feed/devteam";
 
   componentDidMount() {
-    fetch(this.mediumURL)
+    fetch(this.blogURL)
       .then((res) => res.json())
       .then((data) => {
         // create two-dimensional array with 3 elements per inner array
