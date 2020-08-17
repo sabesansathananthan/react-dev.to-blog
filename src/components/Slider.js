@@ -6,10 +6,10 @@ import BlogCard from "./BlogCard";
 class Slider extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { itemRows: [], avatar: "", profileLink: "" };
+    this.state = { itemRows: [], profileLink: "" };
   }
   blogURL =
-    "https://api.rss2json.com/v1/api.json?rss_url=https://dev.to/feed/devteam";
+    "https://api.rss2json.com/v1/api.json?rss_url=https://dev.to/feed/thepracticaldev";
 
   componentDidMount() {
     fetch(this.blogURL)
