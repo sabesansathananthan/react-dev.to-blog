@@ -5,7 +5,6 @@ Aim of this Project is embed Dev as a blog on your React Website.
 
 <img alt="UI" src="./docs/Screenshot.png"  align='center'/>
 
-
 <p align="center">
 <a href="https://github.com/sabesansathananthan/react-dev.to-blog/blob/master/.github/LICENSE">
       <img alt="licence" src="https://img.shields.io/github/license/sabesansathananthan/react-dev.to-blog" />
@@ -18,7 +17,6 @@ Aim of this Project is embed Dev as a blog on your React Website.
     </a>
 </p>
 
-
 ## 🛠️ Built with
 
 - [React JS](https://reactjs.org/) - Front-End JavaScript library
@@ -30,10 +28,10 @@ To setup the app for development on your local machine, please follow the instru
 
 1. Clone the repo to your machine
 
-```bash
-git clone https://github.com/sabesansathananthan/react-dev.to-blog.git
-cd react-dev.to-blog
-```
+   ```bash
+   git clone https://github.com/sabesansathananthan/react-dev.to-blog.git
+   cd react-dev.to-blog
+   ```
 
 2. Install packages
 
@@ -53,11 +51,11 @@ cd react-dev.to-blog
 
 3. Change username
 
-   Use your dev.to user name👤 instead of `thepracticaldev`. in [Slider.js](./src/components/Slider.js)
+   Use your dev.to username👤 instead of `thepracticaldev`. in [Slider.js](./src/components/Slider.js)
 
-```Javascript
-blogURL = "https://api.rss2json.com/v1/api.json?rss_url=https://dev.to/feed/thepracticaldev"
-```
+   ```JavaScript
+   blogURL = "https://api.rss2json.com/v1/api.json?rss_url=https://dev.to/feed/thepracticaldev";
+   ```
 
 4. Run the development server
 
