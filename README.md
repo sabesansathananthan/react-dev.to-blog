@@ -1,6 +1,10 @@
 <h1 align='center'>React Dev Blog</h1>
+<p align="center">
+Aim of this Project is embed Dev as a blog on your React Website.
+</p>
 
-![Image](./docs/Screenshot.png)
+<img alt="UI" src="./docs/Screenshot.png"  align='center'/>
+
 
 <p align="center">
 <a href="https://github.com/sabesansathananthan/react-dev.to-blog/blob/master/.github/LICENSE">
@@ -13,9 +17,7 @@
       <img alt="Twitter URL" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTheSabesan" />
     </a>
 </p>
-<p align="center">
-Aim of this Project is embed Dev as a blog on your React Website.
-</p>
+
 
 ## 🛠️ Built with
 
