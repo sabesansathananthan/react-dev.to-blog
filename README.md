@@ -2,14 +2,20 @@
 
 ![Image](./docs/Screenshot.png)
 
-[![licence](https://img.shields.io/github/license/sabesansathananthan/react-dev.to-blog)](https://github.com/sabesansathananthan/react-dev.to-blog/blob/master/.github/LICENSE)
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/sabesansathananthan/react-dev.to-blog)](https://github.com/sabesansathananthan/react-dev.to-blog)
-[![GitHub repo size](https://img.shields.io/github/repo-size/sabesansathananthan/react-dev.to-blog?color=ff69b4)](https://github.com/sabesansathananthan/react-dev.to-blog)
-[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTheSabesan)](https://twitter.com/intent/tweet?text=Wow,%20I%20used%20react-dev.to-blog.%20That%20is%20excellent.%20Thank%20you%20@TheSabesan)
-
-## About
-
+<p align="center">
+<a href="https://github.com/sabesansathananthan/react-dev.to-blog/blob/master/.github/LICENSE">
+      <img alt="licence" src="https://img.shields.io/github/license/sabesansathananthan/react-dev.to-blog" />
+    </a><a href="https://github.com/sabesansathananthan/react-dev.to-blog">
+      <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/sabesansathananthan/react-dev.to-blog" />
+    </a><a href="https://github.com/sabesansathananthan/react-dev.to-blog">
+      <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/sabesansathananthan/react-dev.to-blog?color=ff69b4" />
+    </a><a href="https://twitter.com/intent/tweet?text=Wow,%20I%20used%20react-dev.to-blog.%20That%20is%20excellent.%20Thank%20you%20@TheSabesan">
+      <img alt="Twitter URL" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTheSabesan" />
+    </a>
+</p>
+<p align="center">
 Aim of this Project is embed Dev as a blog on your React Website.
+</p>
 
 ## 🛠️ Built with
 
