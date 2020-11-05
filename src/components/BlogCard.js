@@ -4,19 +4,34 @@ import ShortenText from "../utils/ShortenText";
 import ToText from "../utils/ToText";
 import { faUser, faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 // functional card component to display single item
 export default function BlogCard(props) {
-  var shortMonthName = new Intl.DateTimeFormat("en-US", {
-    month: "short",
-  }).format;
-  let date = new Date(props.pubDate);
-  const publishDate =
-    shortMonthName(date) +
+  const monthShortname = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+  const splitDate = props.pubDate.split(" ");
+  const date = splitDate[0];
+  const splitMonth = date.split("-");
+  const finalDate =
+    monthShortname[Number(splitMonth[1] - 1)] +
     " " +
-    date.getDate() +
+    splitMonth[2] +
     "," +
     " " +
-    date.getFullYear();
+    splitMonth[0];
+
   return (
     <Card small className="card-post h-100">
       <div
@@ -29,7 +44,6 @@ export default function BlogCard(props) {
             className="text-fiord-blue"
             href={props.link}
             target="_blank"
-            className="text-fiord-blue"
             rel="noopener noreferrer"
           >
             {ShortenText(props.title, 0, 100)}
@@ -48,7 +62,7 @@ export default function BlogCard(props) {
         <br />
 
         <span className="text-muted">
-          <FontAwesomeIcon icon={faCalendarAlt} /> {publishDate}
+          <FontAwesomeIcon icon={faCalendarAlt} /> {finalDate}
         </span>
       </CardFooter>
     </Card>
