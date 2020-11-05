@@ -70,7 +70,7 @@ blogURL = "https://api.rss2json.com/v1/api.json?rss_url=https://dev.to/feed/thep
 
 ## [Live Demo](https://react-dev-blog.web.app/)
 
-Don't forget to give a star ⭐️ for this repo :smile
+Don't forget to give a star ⭐️ for this repo :slightly_smiling_face:
 
 ## 📄 License
 
