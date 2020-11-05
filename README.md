@@ -50,6 +50,7 @@ cd react-dev.to-blog
    ```
 
 3. Change username
+
    Use your dev.to user name👤 instead of `thepracticaldev`. in [Slider.js](./src/components/Slider.js)
 
 ```Javascript
