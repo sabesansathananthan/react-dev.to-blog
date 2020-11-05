@@ -79,6 +79,11 @@ To setup the app for development on your local machine, please follow the instru
 
 Don't forget to give a star :star: for this repo :slightly_smiling_face:
 
+## Similar Projects
+
+- [React-Medium-Blog](https://github.com/sabesansathananthan/React-Medium-Blog)
+- [Material-UI-Medium-Blog](https://github.com/sabesansathananthan/material-ui-medium-blog)
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](./.github/LICENSE) file for details
