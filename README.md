@@ -1,4 +1,4 @@
-# React Dev Blog
+<h1 align='center'>React Dev Blog</h1>
 
 ![Image](./docs/Screenshot.png)
 
