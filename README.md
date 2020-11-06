@@ -79,7 +79,7 @@ To setup the app for development on your local machine, please follow the instru
 
 Don't forget to give a star :star: for this repo :slightly_smiling_face:
 
-## <img alt='Article' height='24px' src ="https://raw.githubusercontent.com/matiassingers/awesome-readme/master/icon.png"/> Related Article
+## <img alt='Article' height='25px' src ="https://raw.githubusercontent.com/matiassingers/awesome-readme/master/icon.png"/> Related Article
 
 [Embed Dev.to as a blog on your React Website](https://dev.to/thesabesan/embed-dev-to-as-a-blog-on-your-react-website-3l8c) - _Sabesan Sathananthan_
 
