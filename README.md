@@ -1,6 +1,6 @@
 <h1 align='center'>React Dev Blog</h1>
 <p align="center">
-Aim of this Project is embed Dev as a blog on your React Website.
+Aim of this project is embed Dev as a blog on your React website.
 </p>
 
 <img alt="UI" src="./docs/Screenshot.png"  align='center'/>
